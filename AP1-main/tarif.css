@@ -1,0 +1,199 @@
+header{
+    background: linear-gradient(90deg, rgb(87, 235, 87), rgb(9,82 ,40));
+    height: 100px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 20%;
+    top: 40px;
+}
+body{
+    background-color: #05202E;
+}
+.K3r{
+    font-size: 80px;
+    position: absolute;
+    text-decoration: none;
+    left: 40%;
+    top: 45px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+:hover.K3r{
+    text-decoration: underline;
+}
+.lien1{
+    position: absolute;
+    font-size: 30px;
+    text-decoration: none;
+    top: 90px;
+    left: 79%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+:hover.lien1{
+    text-decoration: underline;
+    font-size: 31px;
+}
+:hover.lien2{
+    text-decoration: underline;
+    font-size: 31px;
+}
+.logo{
+    height: 300px;
+    position: absolute;
+    left: 7%;
+}
+.gratuit{
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(rgb(87, 235, 87), rgb(9,82 ,40));
+    padding: 5px;
+    position: absolute;
+    width: 500px;
+    top: 300px;
+    left: 33%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.TARIFS{
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient( rgb(87, 235, 87), rgb(9,82 ,40));
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    width: 335px;
+    height: 50px;
+    top: 190px;
+    left: 39%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    font-size: 20px;
+}
+.gold{
+    height: 400px;
+    width: 250px;
+    background: linear-gradient( rgb(87, 235, 87), rgb(9,82 ,40));
+    padding: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 550px;
+    color: white;
+    left: 12%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imgg{
+    height: 120px;
+    position: absolute;
+    left: 25%;
+}
+:hover.gold{
+    background: linear-gradient(180deg,rgb(9,82 ,40), rgb(87, 235, 87) )
+}
+.master{
+    height: 400px;
+    width: 250px;
+    background: linear-gradient( rgb(87, 235, 87), rgb(9,82 ,40));
+    padding: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 550px;
+    color: white;
+    left: 32%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imgm{
+    height: 120px;
+    position: absolute;
+    left: 25%;
+}
+:hover.master{
+    background: linear-gradient(180deg,rgb(9,82 ,40), rgb(87, 235, 87) )
+}
+.chal{
+    height: 400px;
+    width: 250px;
+    background: linear-gradient(rgb(87, 235, 87), rgb(9,82 ,40));
+    padding: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 550px;
+    color: white;
+    left: 52%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imgc{
+    height: 120px;
+    position: absolute;
+    left: 25%;
+}
+:hover.chal{
+    background: linear-gradient(180deg,rgb(9,82 ,40), rgb(87, 235, 87) )
+}
+.expert{
+    height: 400px;
+    width: 250px;
+    background: linear-gradient( rgb(87, 235, 87), rgb(9,82 ,40));
+    padding: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 550px;
+    color: white;
+    left: 72%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.imge{
+    height: 120px;
+    position: absolute;
+    left: 25%;
+}
+:hover.expert{
+    background: linear-gradient(180deg,rgb(9,82 ,40), rgb(87, 235, 87) )
+}
+.tt{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ptexte{
+    width: 120px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(180deg, rgb(87, 235, 87), rgb(9,82 ,40));
+    padding: 5px;
+    position: absolute;
+    top: 1000px;
+    left: 81%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.linkap{
+    position: absolute;
+    width: 50px;
+}
+.instap{
+    position: absolute;
+    width: 50px;
+    left: 80px;
+}
+.fbap{
+    position: absolute;
+    height: 50px;
+    left: 150px
+}
+.reseau{
+    height: 50px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient( rgb(87, 235, 87), rgb(9,82 ,40));
+    padding: 5px;
+    position: absolute;
+    top: 1000px;
+    left: 180px;
+}

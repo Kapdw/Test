@@ -1,0 +1,81 @@
+header{
+    background: linear-gradient(90deg, rgb(87, 235, 87), rgb(9,82 ,40));
+    height: 100px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 20%;
+    top: 40px;
+}
+body{
+    background-color: #05202E;
+}
+.K3r{
+    font-size: 80px;
+    position: absolute;
+    text-decoration: none;
+    left: 40%;
+    top: -40px;
+    color: white;
+}
+:hover.K3r{
+    text-decoration: underline;
+}
+.logo{
+    height: 300px;
+    position: absolute;
+    left: 7%;
+}
+.bloc1{
+    position: absolute;
+    left: 30%;
+    top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(rgb(87, 235, 87), rgb(9,82 ,40));
+    padding: 5px;
+    width: 300px;
+    height: 420px;
+}
+.date{
+    width: 70px;
+}
+.ccv{
+    width: 70px;
+    position: relative;
+    left: 32%;
+}
+.ratio{
+    position: absolute;
+    left: 58%;
+    top: 226px;
+}
+.sub{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 30%;
+}
+.bloc2{
+    position: absolute;
+    left: 110%;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(rgb(87, 235, 87), rgb(9,82 ,40));
+    padding: 5px;
+    width: 300px;
+    height: 420px;
+}
+span{
+    position: relative;
+    left: 33%;
+    font-size: 40px;
+}
+.imgg{
+    height: 120px;
+    position: absolute;
+    left: 28%;
+    top: 100px;
+}
