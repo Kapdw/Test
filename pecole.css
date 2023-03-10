@@ -19,9 +19,19 @@ img{
     width: 350px;
 }
 .AAP{
+    justify-content: space-evenly;
     flex: 1%;
+    flex-direction: column-reverse;
+    display: flex;
+    align-items: center;
 }
 a{
     text-decoration: none;
     color: white;
+}
+.l1{
+    color: black;
+}
+.l1:hover{
+    color: green;
 }
