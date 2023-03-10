@@ -12,3 +12,16 @@ h2{
     background-color: black;
     color: white;
 }
+.AP1{
+    display: flex;
+}
+img{
+    width: 350px;
+}
+.AAP{
+    flex: 1%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
