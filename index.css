@@ -1,5 +1,4 @@
 body{
-    background-image: url(https://w.wallhaven.cc/full/95/wallhaven-95r8l8.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -12,20 +11,29 @@ header{
     gap: 15px;
     align-items: center;
     margin: -8px;
+
 }
-header, body{
-    color:white;
+body{
+    color:black;
 }
 h1{
     text-align: center;
     font-size: 65px;
 }
-p {
-    flex-grow: 1;
-    font-size: xxx-large;
-}
 a{
-    font-size: x-large;
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }  
+.bouton{
+    background-color: black;
+    border: none;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    width: 23.5%;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 29.5rem;
+    color: white;
+}
