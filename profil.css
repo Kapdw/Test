@@ -22,10 +22,13 @@ header{
     color: white;
     text-decoration: none;
 }
-.pro{
+.pro{   
+    display: flex;
     margin: auto;
     font-size: 70px !important;
     color: white !important;
+    justify-content: center;
+    gap: 5rem;
 }
 .pres{
     width: 100%;

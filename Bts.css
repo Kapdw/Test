@@ -11,7 +11,11 @@
     display: flex !important;
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
-}
+    color: white;
+    }
+    .bandeau h2 {
+        text-align: center;
+    }
 header{
     background-color: black;
     height: 100px;
@@ -22,27 +26,57 @@ header{
     color: white;
     text-decoration: none;
 }
-.pro{
-    margin: auto;
-    font-size: 70px !important;
-    color: white !important;
-}
 a{
     text-decoration: none;
     color: white;
 }
-.sisr{
-    flex: 1 0 0%;
+.part {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
-.slam{
-    flex: 1 0 0%;
+
+.td {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
 }
-.td{
-display: flex;
-flex-wrap: wrap;
-text-align: center;
+
+/* Styles pour les blocs d'options */
+.sisr, .slam {
+    background-color: #eee;
+    padding: 20px;
+    flex-basis: 45%;
 }
-.part{
+
+.sisr h3, .slam h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.sisr h4, .slam h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.sisr ul, .slam ul {
+    margin-left: 20px;
+}
+
+.sisr li, .slam li {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
     text-align: center;
-    text-decoration: underline;
 }
+
+footer p {
+    font-size: 1.2rem;
+}   

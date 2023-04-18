@@ -31,20 +31,42 @@ header{
     text-decoration: underline;
     text-align: center;
 }
-.bouton{
-    background-color: black;
-    border: none;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    width: 29.5%;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 17px;
-    margin: center !important;
-    border-radius: 0.5rem;
-    color: rgb(253, 251, 251);
-}
 a{
+    background-color: black;
     text-decoration: none;
     color: white;
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+
+}
+.bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.essai3{
+    background-image: url("https://media.istockphoto.com/id/1030995160/fr/vectoriel/b%C3%A2timent-moderne-d%C3%A9cole-mince-illustration-vectorielle-de-ligne-design-style.jpg?s=612x612&w=0&k=20&c=6ewie1SDAuRA0cKCDK3eHI5Ak2gPyxQb69BPC92LJ8w=");
+}
+.essai2{
+    background-image: url("https://i0.wp.com/www.business-plan-excel.fr/wp-content/uploads/2020/01/dossier-presentation-entreprise-modele.png?resize=810%2C500&ssl=1&is-pending-load=1"
+    );
+}
+.essai2, .essai3 {
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 300px;
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
