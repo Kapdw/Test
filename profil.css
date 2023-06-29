@@ -1,4 +1,4 @@
-.bandeau{
+.bandeau {
     background-position: top;
     background-image: url(https://www.hdruk.ac.uk/wp-content/uploads/2019/02/shutterstock_772368733-e1620293728465.jpg);
     background-repeat: no-repeat, repeat;
@@ -12,7 +12,7 @@
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
 }
-header{
+header {
     background-color: black;
     height: 100px;
     display: flex;
@@ -22,7 +22,7 @@ header{
     color: white;
     text-decoration: none;
 }
-.pro{   
+.pro {
     display: flex;
     margin: auto;
     font-size: 70px !important;
@@ -30,20 +30,19 @@ header{
     justify-content: center;
     gap: 5rem;
 }
-.pres{
+.pres {
     width: 100%;
     max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
     margin-top: var(--bs-gutter-y);
 }
-.grille{
+.grille {
     display: flex;
     flex-wrap: wrap;
-    
 }
-.bouton{
-    background-color: black;    
+.bouton {
+    background-color: black;
     border: none;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -55,48 +54,74 @@ header{
     border-radius: 0.5rem;
     color: rgb(253, 251, 251);
 }
-.link{
+.link {
     width: 50px;
     gap: 15px;
 }
-.link:hover{
+.link:hover {
     filter: brightness(0);
 }
-a{
+a {
     text-decoration: none;
     color: white;
 }
-body{
+body {
     text-align: center;
 }
-ul{
+ul {
     text-decoration: none;
 }
 li {
-    display : flex;
-    width : 33%;
-    flex-direction: row; 
+    display: flex;
+    width: 33%;
+    flex-direction: row;
 }
-.part{
-    text-decoration:underline;
+.part {
+    text-decoration: underline;
 }
 /* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
+* {
+    box-sizing: border-box;
+}
 
 /* Container for skill bars */
 .container {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
 }
 
-.html {width: 90%; background-color: #04AA6D;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.html {
+    width: 90%;
+    background-color: #04aa6d;
+} /* Green */
+.css {
+    width: 80%;
+    background-color: #2196f3;
+} /* Blue */
+.js {
+    width: 65%;
+    background-color: #f44336;
+} /* Red */
+.express {
+    width: 65%;
+    background-color: #f6b256;
+}
+.ts {
+    width: 50%;
+    background-color: #00008b;
+}
+.test_u {
+    width: 55%;
+    background-color: #ff8000;
+}
+.php {
+    width: 60%;
+    background-color: #808080;
+} /* Dark Grey */
